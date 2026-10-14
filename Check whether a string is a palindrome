@@ -1,0 +1,8 @@
+let word = "madam"
+let reversedWord = String(word.reversed())
+
+if word == reversedWord {
+    print("Palindrome")
+} else {
+    print("Not a Palindrome")
+}
