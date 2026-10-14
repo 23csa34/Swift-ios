@@ -1,0 +1,7 @@
+var name = "Divya"
+var age = 23
+let college = "KIT"
+
+print(name)
+print(age)
+print(college)
