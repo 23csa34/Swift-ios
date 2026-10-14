@@ -1,0 +1,17 @@
+
+let number = 9
+var count = 0
+
+if number > 0 {
+    for i in 1...number {
+        if number % i == 0 {
+            count += 1
+        }
+    }
+}
+
+if number > 1 && count == 2 {
+    print("Prime Number")
+} else {
+    print("Not a Prime Number")
+}
